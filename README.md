@@ -46,6 +46,8 @@ Les incidents sont reproduits volontairement, puis diagnostiqués, corrigés et 
 
 Le serveur `DC01` assure les fonctions de contrôleur de domaine et de serveur DNS pour l'environnement `LAB.local`.
 
+[Consulter la documentation technique complète de l'infrastructure](docs/infrastructure.md)
+
 ---
 
 ## 2. Architecture Active Directory
