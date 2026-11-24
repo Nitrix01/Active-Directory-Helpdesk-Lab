@@ -119,6 +119,12 @@ Les autorisations générales `Users` avaient précédemment été supprimées d
 
 La configuration du partage ne nécessitait donc aucune modification supplémentaire.
 
+### Vérification des permissions SMB
+
+Vérification des autorisations du partage RH avec la commande PowerShell Get-SmbShareAccess.
+
+![Permissions SMB](../../screenshots/05-permissions-smb.png)
+
 ## 5. Cause racine identifiée
 
 **Suppression du compte Julie Durand du groupe de sécurité `DL RH Modification`.**
