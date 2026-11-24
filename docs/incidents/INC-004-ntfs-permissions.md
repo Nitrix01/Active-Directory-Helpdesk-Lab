@@ -341,6 +341,11 @@ Les deux lignes ont été retrouvées dans le fichier.
 **Résultat final :** Julie Durand peut de nouveau créer, consulter et modifier les fichiers du dossier RH.
 
 ---
+### Vérification des permissions NTFS
+
+Autorisations NTFS après restauration du droit de modification pour le groupe DL RH Modification.
+
+![Permissions NTFS](../../screenshots/04-NTFS-rights.png)
 
 ## 9. Différence avec INC-005
 
