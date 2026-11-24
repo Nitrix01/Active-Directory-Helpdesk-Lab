@@ -310,6 +310,20 @@ Get-WinEvent -FilterHashtable @{
 
 Cette politique a été utilisée lors de la simulation de l'incident INC-003.
 
+### Événements liés à l'état des comptes
+
+Les journaux de sécurité Windows permettent également de suivre les opérations d'activation, de désactivation et de verrouillage des comptes Active Directory.
+
+| Event ID | Signification |
+|---|---|
+| 4722 | Compte utilisateur activé |
+| 4725 | Compte utilisateur désactivé |
+| 4740 | Compte utilisateur verrouillé |
+
+Les événements 4725 et 4722 ont été analysés lors de la résolution de l'incident INC-001.
+
+[Consulter l'incident INC-001](incidents/INC-001-account-disabled.md)
+
 ---
 
 ## 11. Outils d'administration utilisés
@@ -328,10 +342,11 @@ Cette politique a été utilisée lors de la simulation de l'incident INC-003.
 
 ## 12. Incidents de support informatique
 
-L'infrastructure a permis de reproduire et de résoudre plusieurs incidents représentatifs du support informatique.
+L'infrastructure a permis de reproduire et de résoudre cinq incidents représentatifs du support informatique de niveau 1.
 
 | Référence | Incident | Statut |
 |---|---|---|
+| INC-001 | Compte utilisateur désactivé | Résolu |
 | INC-002 | Mot de passe oublié | Résolu |
 | INC-003 | Verrouillage de compte | Résolu |
 | INC-004 | Permissions NTFS insuffisantes | Résolu |
