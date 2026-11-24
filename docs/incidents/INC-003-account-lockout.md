@@ -130,6 +130,12 @@ Cette commande permet d'afficher les derniers événements de verrouillage enreg
 
 Le champ `Caller Computer Name` a permis d'identifier `DC01` comme ordinateur à l'origine de la demande de verrouillage.
 
+### Preuve du verrouillage du compte
+
+Événement de sécurité Windows 4740 confirmant le verrouillage du compte h.moreau.
+
+![Événement 4740](../../screenshots/06-event-4740-account-lockout.png)
+
 ## 5. Cause racine
 
 **Dépassement du seuil de tentatives d'authentification incorrectes défini dans la politique de verrouillage Active Directory.**
