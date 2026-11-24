@@ -128,7 +128,7 @@ Cette organisation facilite l'administration des accès et permet de respecter l
 
 ## 4. Incidents de support informatique
 
-Quatre incidents ont été simulés et résolus dans le laboratoire.
+Cinq incidents ont été simulés et résolus dans le laboratoire.
 
 Chaque intervention comprend :
 
@@ -139,6 +139,24 @@ Chaque intervention comprend :
 5. L'application d'une correction.
 6. La validation du rétablissement du service.
 7. La documentation de l'intervention.
+
+### INC-001 — Compte utilisateur désactivé
+
+**Scénario :** un utilisateur du service Comptabilité ne parvient plus à s'authentifier malgré l'utilisation d'un mot de passe correct.
+
+**Interventions réalisées :**
+
+- Vérification de l'état du compte AD.
+- Analyse de l'erreur système Windows 1331.
+- Analyse de l'événement de sécurité 4725.
+- Identification du compte administrateur à l'origine de la désactivation.
+- Réactivation du compte utilisateur avec PowerShell.
+- Vérification de l'événement de sécurité 4722.
+- Validation du rétablissement de l'authentification.
+
+**Statut :** Résolu.
+
+[Consulter la fiche d'incident INC-001](docs/incidents/INC-001-account-disabled.md)
 
 ### INC-002 — Réinitialisation d'un mot de passe Active Directory
 
