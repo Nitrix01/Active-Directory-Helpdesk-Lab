@@ -286,7 +286,27 @@ Elles permettent d'illustrer :
 - Les résultats des commandes PowerShell.
 - La validation des résolutions.
 
-Les captures publiées ne doivent contenir aucun mot de passe ni aucune information d'identification sensible.
+### Architecture Active Directory
+
+Organisation des unités d'organisation (OU) du domaine LAB.local.
+
+![Architecture Active Directory](screenshots/01-architecture-active-directory.png)
+
+### Comptes utilisateurs
+
+Liste des cinq utilisateurs du laboratoire, obtenue via PowerShell.
+
+![Comptes utilisateurs](screenshots/02-users-active-directory.png)
+
+### Groupe de sécurité RH
+
+Vérification des membres du groupe DL RH Modification.
+
+![Groupe de sécurité RH](screenshots/03-users-RH-group.png)
+
+Les captures relatives aux incidents de support sont disponibles dans les fiches d'incidents correspondantes.
+
+[Consulter toutes les captures d'écran](screenshots/)
 
 ---
 
